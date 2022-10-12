@@ -1,0 +1,65 @@
+body {
+	color: #757575;
+	background-color: #FFFFFF;
+	width: 1600px;
+}
+
+.list {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000000;
+}
+
+/* Header */
+.logo {
+	color: #000000;
+}
+
+.logo span {
+	color: #2196F3;
+}
+
+.site-nav .link {
+	color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: #2196F3;
+}
+
+.auth-nav .link {
+	color: #757575;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+	color: #2196F3;
+}
+
+
+
+
+/* Hero */
+.hero {
+	background-color: #2F303A;
+}
+
+.hero .hero-title {
+	color: #FFFFFF;
+}
+/* Основний чорний #212121 */
+/* Другорядний сірий #757575 */
+/* Підвал силки rgba(255, 255, 255, 0.6) */
+/* Активний колір #2196F3 */
