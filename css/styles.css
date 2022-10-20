@@ -8,7 +8,10 @@
 body {
 	color: var(--primary-text-color);
 	background-color: var(--primary-white-color);
-	width: 1600px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal; 
+	font-weight: 400px;
+	letter-spacing: 0.03em;
 }
 
 .list {
@@ -31,6 +34,9 @@ h6 {
 /* Header */
 .logo {
 	color: var(--title-text-color);
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	line-height: 1.09;
 }
 
 .logo span {
@@ -65,6 +71,10 @@ h6 {
 
 .hero .hero-title {
 	color: var(--primary-white-color);
+}
+
+.button {
+	font-family: inherit;
 }
 /* Основний чорний #212121 */
 /* Другорядний сірий #757575 */
