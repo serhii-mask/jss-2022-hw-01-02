@@ -1,6 +1,13 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #000000;
+	--accent-color: #2196F3;
+	--primary-white-color: #ffffff;
+}
+
 body {
-	color: #757575;
-	background-color: #FFFFFF;
+	color: var(--primary-text-color);
+	background-color: var(--primary-white-color);
 	width: 1600px;
 }
 
@@ -18,34 +25,34 @@ h3,
 h4,
 h5,
 h6 {
-	color: #000000;
+	color: var(--title-text-color);
 }
 
 /* Header */
 .logo {
-	color: #000000;
+	color: var(--title-text-color);
 }
 
 .logo span {
-	color: #2196F3;
+	color: var(--accent-color);
 }
 
 .site-nav .link {
-	color: #000000;
+	color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-	color: #2196F3;
+	color: var(--accent-color);
 }
 
 .auth-nav .link {
-	color: #757575;
+	color: var(--primary-text-color);
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-	color: #2196F3;
+	color: var(--accent-color);
 }
 
 
@@ -57,9 +64,11 @@ h6 {
 }
 
 .hero .hero-title {
-	color: #FFFFFF;
+	color: var(--primary-white-color);
 }
 /* Основний чорний #212121 */
 /* Другорядний сірий #757575 */
 /* Підвал силки rgba(255, 255, 255, 0.6) */
 /* Активний колір #2196F3 */
+
+/*  */
